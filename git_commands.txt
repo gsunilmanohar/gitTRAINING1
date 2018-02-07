@@ -1,0 +1,58 @@
+// To initiate the empty repository 
+$ git init
+
+// To know the status of repository 
+$ git status
+$ git status
+
+// To add the files into repository 
+$ git add octocat.txt
+$ git add '*.txt'
+$ git add octofamily/octodog.txt
+
+// To commit files into repository 
+$ git commit -m "Add cute octocat story"
+$ git commit -m 'Add all the octocat txt files'
+
+// To view the commit log. 
+$ git log 
+
+// To add the remote repository. 
+$ git remote add origin https://github.com/try-git/try_git.git
+
+// To push into master branch after the commit. 
+$ git push -u origin master
+
+// To pull the repository master. 
+$ git pull origin master
+
+// To view the diff from the HEAD of repository. 
+$ git diff HEAD
+
+// To view the diff from the stage. 
+$ git diff --staged
+
+// To reset the file with original state of data including the file. 
+$ git reset octofamily/octodog.txt
+
+// To checkout the specific file. 
+$ git checkout -- octocat.txt
+
+// To switch the branch in the local. 
+$ git branch clean_up
+
+// To checkout the branch in the local.
+$ git checkout clean_up
+
+// To remove the similar file in one go and commit the same into repo with comments.
+$ git rm '*.txt'
+$ git commit -m "Remove all the cats"
+
+// To checkout from the master repo.
+$ git checkout master
+
+// To merge into the specific branch and push into the repo
+$ git merge clean_up
+$ git branch -d clean_up
+$ git push
+
