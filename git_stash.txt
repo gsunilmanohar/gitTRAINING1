@@ -1,0 +1,17 @@
+// To store the local work temporarily created. 
+$ git stash 
+
+// To view the list of the stash work.
+$ git stash show
+
+// To retore the stash work.
+$ git stash pop
+
+
+
+// example 
+-- prepare the local data --
+$ git stash
+$ git pull 
+$ git stash pop
+-- retore the local data --
